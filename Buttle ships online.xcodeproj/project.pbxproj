@@ -26,6 +26,8 @@
 		84DA7C09190E936B00733948 /* PrepareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7C01190E936B00733948 /* PrepareViewController.xib */; };
 		84DA7C0A190E936B00733948 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7C04190E936B00733948 /* StartViewController.m */; };
 		84DA7C0B190E936B00733948 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7C05190E936B00733948 /* StartViewController.xib */; };
+		84DA7C12190E94AB00733948 /* MPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7C11190E94AB00733948 /* MPManager.m */; };
+		84DA7C15190E952D00733948 /* BSGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7C14190E952D00733948 /* BSGameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		84DA7C03190E936B00733948 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
 		84DA7C04190E936B00733948 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 		84DA7C05190E936B00733948 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		84DA7C10190E94AB00733948 /* MPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPManager.h; sourceTree = "<group>"; };
+		84DA7C11190E94AB00733948 /* MPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPManager.m; sourceTree = "<group>"; };
+		84DA7C13190E952D00733948 /* BSGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSGameModel.h; path = Models/BSGameModel.h; sourceTree = "<group>"; };
+		84DA7C14190E952D00733948 /* BSGameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSGameModel.m; path = Models/BSGameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,8 @@
 		84DA7BD0190E822700733948 /* Buttle ships online */ = {
 			isa = PBXGroup;
 			children = (
+				84DA7C16190E953200733948 /* Models */,
+				84DA7C0F190E94AB00733948 /* Manager */,
 				84DA7BF9190E936B00733948 /* ViewControllers */,
 				84DA7BD9190E822700733948 /* BSAppDelegate.h */,
 				84DA7BDA190E822700733948 /* BSAppDelegate.m */,
@@ -204,6 +212,24 @@
 				84DA7C05190E936B00733948 /* StartViewController.xib */,
 			);
 			path = StartViewController;
+			sourceTree = "<group>";
+		};
+		84DA7C0F190E94AB00733948 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7C10190E94AB00733948 /* MPManager.h */,
+				84DA7C11190E94AB00733948 /* MPManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		84DA7C16190E953200733948 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7C13190E952D00733948 /* BSGameModel.h */,
+				84DA7C14190E952D00733948 /* BSGameModel.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +370,8 @@
 				84DA7BD7190E822700733948 /* main.m in Sources */,
 				84DA7C0A190E936B00733948 /* StartViewController.m in Sources */,
 				84DA7C06190E936B00733948 /* GameViewController.m in Sources */,
+				84DA7C12190E94AB00733948 /* MPManager.m in Sources */,
+				84DA7C15190E952D00733948 /* BSGameModel.m in Sources */,
 				84DA7BDB190E822700733948 /* BSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +493,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
 				INFOPLIST_FILE = "Buttle ships online/Buttle ships online-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -479,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
 				INFOPLIST_FILE = "Buttle ships online/Buttle ships online-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
