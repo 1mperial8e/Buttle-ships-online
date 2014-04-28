@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0408066F190E856400E063C3 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0408066D190E856400E063C3 /* StartViewController.m */; };
-		04080670190E856400E063C3 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0408066E190E856400E063C3 /* StartViewController.xib */; };
+		04080676190E883600E063C3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080674190E883600E063C3 /* GameViewController.m */; };
+		04080677190E883600E063C3 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04080675190E883600E063C3 /* GameViewController.xib */; };
+		0408067B190E885F00E063C3 /* PrepareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04080679190E885F00E063C3 /* PrepareViewController.m */; };
+		0408067C190E885F00E063C3 /* PrepareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0408067A190E885F00E063C3 /* PrepareViewController.xib */; };
+		04080680190E88A700E063C3 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0408067E190E88A700E063C3 /* StartViewController.m */; };
+		04080681190E88A700E063C3 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0408067F190E88A700E063C3 /* StartViewController.xib */; };
 		84DA7BCB190E822700733948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCA190E822700733948 /* Foundation.framework */; };
 		84DA7BCD190E822700733948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCC190E822700733948 /* CoreGraphics.framework */; };
 		84DA7BCF190E822700733948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCE190E822700733948 /* UIKit.framework */; };
@@ -34,9 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0408066C190E856400E063C3 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
-		0408066D190E856400E063C3 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
-		0408066E190E856400E063C3 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		04080673190E883600E063C3 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ViewControllers/GameViewController/GameViewController.h; sourceTree = "<group>"; };
+		04080674190E883600E063C3 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ViewControllers/GameViewController/GameViewController.m; sourceTree = "<group>"; };
+		04080675190E883600E063C3 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GameViewController.xib; path = ViewControllers/GameViewController/GameViewController.xib; sourceTree = "<group>"; };
+		04080678190E885F00E063C3 /* PrepareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrepareViewController.h; path = ViewControllers/PrepareViewController/PrepareViewController.h; sourceTree = "<group>"; };
+		04080679190E885F00E063C3 /* PrepareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrepareViewController.m; path = ViewControllers/PrepareViewController/PrepareViewController.m; sourceTree = "<group>"; };
+		0408067A190E885F00E063C3 /* PrepareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrepareViewController.xib; path = ViewControllers/PrepareViewController/PrepareViewController.xib; sourceTree = "<group>"; };
+		0408067D190E88A700E063C3 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = ViewControllers/StartViewController/StartViewController.h; sourceTree = "<group>"; };
+		0408067E190E88A700E063C3 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = ViewControllers/StartViewController/StartViewController.m; sourceTree = "<group>"; };
+		0408067F190E88A700E063C3 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StartViewController.xib; path = ViewControllers/StartViewController/StartViewController.xib; sourceTree = "<group>"; };
 		84DA7BC7190E822700733948 /* Buttle ships online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttle ships online.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA7BCA190E822700733948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84DA7BCC190E822700733948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +92,8 @@
 		0408066A190E852000E063C3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				04080672190E87C600E063C3 /* GameViewControllers */,
+				04080671190E87B600E063C3 /* PrepareViewControllers */,
 				0408066B190E853400E063C3 /* StartViewController */,
 			);
 			name = ViewControllers;
@@ -90,11 +102,31 @@
 		0408066B190E853400E063C3 /* StartViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0408066C190E856400E063C3 /* StartViewController.h */,
-				0408066D190E856400E063C3 /* StartViewController.m */,
-				0408066E190E856400E063C3 /* StartViewController.xib */,
+				0408067D190E88A700E063C3 /* StartViewController.h */,
+				0408067E190E88A700E063C3 /* StartViewController.m */,
+				0408067F190E88A700E063C3 /* StartViewController.xib */,
 			);
 			name = StartViewController;
+			sourceTree = "<group>";
+		};
+		04080671190E87B600E063C3 /* PrepareViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04080678190E885F00E063C3 /* PrepareViewController.h */,
+				04080679190E885F00E063C3 /* PrepareViewController.m */,
+				0408067A190E885F00E063C3 /* PrepareViewController.xib */,
+			);
+			name = PrepareViewControllers;
+			sourceTree = "<group>";
+		};
+		04080672190E87C600E063C3 /* GameViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04080673190E883600E063C3 /* GameViewController.h */,
+				04080674190E883600E063C3 /* GameViewController.m */,
+				04080675190E883600E063C3 /* GameViewController.xib */,
+			);
+			name = GameViewControllers;
 			sourceTree = "<group>";
 		};
 		84DA7BBE190E822700733948 = {
@@ -244,9 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04080677190E883600E063C3 /* GameViewController.xib in Resources */,
+				0408067C190E885F00E063C3 /* PrepareViewController.xib in Resources */,
 				84DA7BD5190E822700733948 /* InfoPlist.strings in Resources */,
-				04080670190E856400E063C3 /* StartViewController.xib in Resources */,
 				84DA7BDD190E822700733948 /* Images.xcassets in Resources */,
+				04080681190E88A700E063C3 /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0408066F190E856400E063C3 /* StartViewController.m in Sources */,
+				04080676190E883600E063C3 /* GameViewController.m in Sources */,
+				0408067B190E885F00E063C3 /* PrepareViewController.m in Sources */,
+				04080680190E88A700E063C3 /* StartViewController.m in Sources */,
 				84DA7BD7190E822700733948 /* main.m in Sources */,
 				84DA7BDB190E822700733948 /* BSAppDelegate.m in Sources */,
 			);
