@@ -1,1012 +1,560 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1A69BD82C05847BE888534F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>311C613CEF894FAAAE2D8573</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C1BD4A3ED8140908612EA0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C1BD4A3ED8140908612EA0E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>84DA7BBE190E822700733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BD0190E822700733948</string>
-				<string>84DA7BE9190E822800733948</string>
-				<string>84DA7BC9190E822700733948</string>
-				<string>84DA7BC8190E822700733948</string>
-				<string>1A69BD82C05847BE888534F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BBF190E822700733948</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>BS</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>mobilesoft365</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>84DA7BE1190E822700733948</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>84DA7BC6190E822700733948</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>84DA7BC2190E822700733948</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>84DA7BBE190E822700733948</string>
-			<key>productRefGroup</key>
-			<string>84DA7BC8190E822700733948</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>84DA7BC6190E822700733948</string>
-				<string>84DA7BE1190E822700733948</string>
-			</array>
-		</dict>
-		<key>84DA7BC2190E822700733948</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>84DA7BF1190E822800733948</string>
-				<string>84DA7BF2190E822800733948</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>84DA7BC3190E822700733948</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84DA7BD7190E822700733948</string>
-				<string>84DA7BDB190E822700733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84DA7BC4190E822700733948</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84DA7BCD190E822700733948</string>
-				<string>84DA7BCF190E822700733948</string>
-				<string>84DA7BCB190E822700733948</string>
-				<string>311C613CEF894FAAAE2D8573</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84DA7BC5190E822700733948</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84DA7BD5190E822700733948</string>
-				<string>84DA7BDD190E822700733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84DA7BC6190E822700733948</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>84DA7BF3190E822800733948</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C4C52B93BFEA4541B984C529</string>
-				<string>84DA7BC3190E822700733948</string>
-				<string>84DA7BC4190E822700733948</string>
-				<string>84DA7BC5190E822700733948</string>
-				<string>D5F7B85CBAC14C15A4EA3FB4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Buttle ships online</string>
-			<key>productName</key>
-			<string>Buttle ships online</string>
-			<key>productReference</key>
-			<string>84DA7BC7190E822700733948</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>84DA7BC7190E822700733948</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Buttle ships online.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>84DA7BC8190E822700733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BC7190E822700733948</string>
-				<string>84DA7BE2190E822800733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BC9190E822700733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BCA190E822700733948</string>
-				<string>84DA7BCC190E822700733948</string>
-				<string>84DA7BCE190E822700733948</string>
-				<string>84DA7BE3190E822800733948</string>
-				<string>7C1BD4A3ED8140908612EA0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BCA190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>84DA7BCB190E822700733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BCA190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BCC190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>84DA7BCD190E822700733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BCC190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BCE190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>84DA7BCF190E822700733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BCE190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BD0190E822700733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BD9190E822700733948</string>
-				<string>84DA7BDA190E822700733948</string>
-				<string>84DA7BDC190E822700733948</string>
-				<string>84DA7BD1190E822700733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Buttle ships online</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BD1190E822700733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BD2190E822700733948</string>
-				<string>84DA7BD3190E822700733948</string>
-				<string>84DA7BD6190E822700733948</string>
-				<string>84DA7BD8190E822700733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BD2190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Buttle ships online-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BD3190E822700733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BD4190E822700733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BD4190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BD5190E822700733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BD3190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BD6190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BD7190E822700733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BD6190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BD8190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Buttle ships online-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BD9190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>BSAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BDA190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>BSAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BDB190E822700733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BDA190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BDC190E822700733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BDD190E822700733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BDC190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BDE190E822700733948</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84DA7BF0190E822800733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84DA7BDF190E822700733948</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84DA7BE4190E822800733948</string>
-				<string>84DA7BE6190E822800733948</string>
-				<string>84DA7BE5190E822800733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84DA7BE0190E822700733948</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>84DA7BEE190E822800733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>84DA7BE1190E822700733948</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>84DA7BF6190E822800733948</string>
-			<key>buildPhases</key>
-			<array>
-				<string>84DA7BDE190E822700733948</string>
-				<string>84DA7BDF190E822700733948</string>
-				<string>84DA7BE0190E822700733948</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>84DA7BE8190E822800733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Buttle ships onlineTests</string>
-			<key>productName</key>
-			<string>Buttle ships onlineTests</string>
-			<key>productReference</key>
-			<string>84DA7BE2190E822800733948</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>84DA7BE2190E822800733948</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Buttle ships onlineTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>84DA7BE3190E822800733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>84DA7BE4190E822800733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BE3190E822800733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BE5190E822800733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BCA190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BE6190E822800733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BCE190E822700733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BE7190E822800733948</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>84DA7BBF190E822700733948</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>84DA7BC6190E822700733948</string>
-			<key>remoteInfo</key>
-			<string>Buttle ships online</string>
-		</dict>
-		<key>84DA7BE8190E822800733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>84DA7BC6190E822700733948</string>
-			<key>targetProxy</key>
-			<string>84DA7BE7190E822800733948</string>
-		</dict>
-		<key>84DA7BE9190E822800733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BEF190E822800733948</string>
-				<string>84DA7BEA190E822800733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Buttle ships onlineTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BEA190E822800733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BEB190E822800733948</string>
-				<string>84DA7BEC190E822800733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BEB190E822800733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Buttle ships onlineTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BEC190E822800733948</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>84DA7BED190E822800733948</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BED190E822800733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BEE190E822800733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BEC190E822800733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BEF190E822800733948</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Buttle_ships_onlineTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84DA7BF0190E822800733948</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84DA7BEF190E822800733948</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84DA7BF1190E822800733948</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>84DA7BF2190E822800733948</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>84DA7BF3190E822800733948</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>84DA7BF4190E822800733948</string>
-				<string>84DA7BF5190E822800733948</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>84DA7BF4190E822800733948</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1A69BD82C05847BE888534F7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Buttle ships online/Buttle ships online-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Buttle ships online/Buttle ships online-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>84DA7BF5190E822800733948</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1A69BD82C05847BE888534F7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Buttle ships online/Buttle ships online-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Buttle ships online/Buttle ships online-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>84DA7BF6190E822800733948</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>84DA7BF7190E822800733948</string>
-				<string>84DA7BF8190E822800733948</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>84DA7BF7190E822800733948</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Buttle ships online.app/Buttle ships online</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Buttle ships online/Buttle ships online-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>Buttle ships onlineTests/Buttle ships onlineTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>84DA7BF8190E822800733948</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Buttle ships online.app/Buttle ships online</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Buttle ships online/Buttle ships online-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Buttle ships onlineTests/Buttle ships onlineTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C4C52B93BFEA4541B984C529</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D5F7B85CBAC14C15A4EA3FB4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>84DA7BBF190E822700733948</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311C613CEF894FAAAE2D8573 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1BD4A3ED8140908612EA0E /* libPods.a */; };
+		84DA7BCB190E822700733948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCA190E822700733948 /* Foundation.framework */; };
+		84DA7BCD190E822700733948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCC190E822700733948 /* CoreGraphics.framework */; };
+		84DA7BCF190E822700733948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCE190E822700733948 /* UIKit.framework */; };
+		84DA7BD5190E822700733948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7BD3190E822700733948 /* InfoPlist.strings */; };
+		84DA7BD7190E822700733948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7BD6190E822700733948 /* main.m */; };
+		84DA7BDB190E822700733948 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7BDA190E822700733948 /* BSAppDelegate.m */; };
+		84DA7BDD190E822700733948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7BDC190E822700733948 /* Images.xcassets */; };
+		84DA7BE4190E822800733948 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BE3190E822800733948 /* XCTest.framework */; };
+		84DA7BE5190E822800733948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCA190E822700733948 /* Foundation.framework */; };
+		84DA7BE6190E822800733948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCE190E822700733948 /* UIKit.framework */; };
+		84DA7BEE190E822800733948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7BEC190E822800733948 /* InfoPlist.strings */; };
+		84DA7BF0190E822800733948 /* Buttle_ships_onlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7BEF190E822800733948 /* Buttle_ships_onlineTests.m */; };
+		84DA7C06190E936B00733948 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7BFC190E936B00733948 /* GameViewController.m */; };
+		84DA7C07190E936B00733948 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7BFD190E936B00733948 /* GameViewController.xib */; };
+		84DA7C08190E936B00733948 /* PrepareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7C00190E936B00733948 /* PrepareViewController.m */; };
+		84DA7C09190E936B00733948 /* PrepareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7C01190E936B00733948 /* PrepareViewController.xib */; };
+		84DA7C0A190E936B00733948 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7C04190E936B00733948 /* StartViewController.m */; };
+		84DA7C0B190E936B00733948 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7C05190E936B00733948 /* StartViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DA7BE7190E822800733948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DA7BBF190E822700733948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DA7BC6190E822700733948;
+			remoteInfo = "Buttle ships online";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A69BD82C05847BE888534F7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		7C1BD4A3ED8140908612EA0E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DA7BC7190E822700733948 /* Buttle ships online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttle ships online.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DA7BCA190E822700733948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84DA7BCC190E822700733948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84DA7BCE190E822700733948 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84DA7BD2190E822700733948 /* Buttle ships online-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Buttle ships online-Info.plist"; sourceTree = "<group>"; };
+		84DA7BD4190E822700733948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DA7BD6190E822700733948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DA7BD8190E822700733948 /* Buttle ships online-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Buttle ships online-Prefix.pch"; sourceTree = "<group>"; };
+		84DA7BD9190E822700733948 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		84DA7BDA190E822700733948 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		84DA7BDC190E822700733948 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84DA7BE2190E822800733948 /* Buttle ships onlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buttle ships onlineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DA7BE3190E822800733948 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84DA7BEB190E822800733948 /* Buttle ships onlineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Buttle ships onlineTests-Info.plist"; sourceTree = "<group>"; };
+		84DA7BED190E822800733948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DA7BEF190E822800733948 /* Buttle_ships_onlineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buttle_ships_onlineTests.m; sourceTree = "<group>"; };
+		84DA7BFB190E936B00733948 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		84DA7BFC190E936B00733948 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		84DA7BFD190E936B00733948 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		84DA7BFF190E936B00733948 /* PrepareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrepareViewController.h; sourceTree = "<group>"; };
+		84DA7C00190E936B00733948 /* PrepareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrepareViewController.m; sourceTree = "<group>"; };
+		84DA7C01190E936B00733948 /* PrepareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrepareViewController.xib; sourceTree = "<group>"; };
+		84DA7C03190E936B00733948 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		84DA7C04190E936B00733948 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		84DA7C05190E936B00733948 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DA7BC4190E822700733948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BCD190E822700733948 /* CoreGraphics.framework in Frameworks */,
+				84DA7BCF190E822700733948 /* UIKit.framework in Frameworks */,
+				84DA7BCB190E822700733948 /* Foundation.framework in Frameworks */,
+				311C613CEF894FAAAE2D8573 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DA7BDF190E822700733948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BE4190E822800733948 /* XCTest.framework in Frameworks */,
+				84DA7BE6190E822800733948 /* UIKit.framework in Frameworks */,
+				84DA7BE5190E822800733948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DA7BBE190E822700733948 = {
+			isa = PBXGroup;
+			children = (
+				84DA7BD0190E822700733948 /* Buttle ships online */,
+				84DA7BE9190E822800733948 /* Buttle ships onlineTests */,
+				84DA7BC9190E822700733948 /* Frameworks */,
+				84DA7BC8190E822700733948 /* Products */,
+				1A69BD82C05847BE888534F7 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		84DA7BC8190E822700733948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BC7190E822700733948 /* Buttle ships online.app */,
+				84DA7BE2190E822800733948 /* Buttle ships onlineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DA7BC9190E822700733948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BCA190E822700733948 /* Foundation.framework */,
+				84DA7BCC190E822700733948 /* CoreGraphics.framework */,
+				84DA7BCE190E822700733948 /* UIKit.framework */,
+				84DA7BE3190E822800733948 /* XCTest.framework */,
+				7C1BD4A3ED8140908612EA0E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DA7BD0190E822700733948 /* Buttle ships online */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BF9190E936B00733948 /* ViewControllers */,
+				84DA7BD9190E822700733948 /* BSAppDelegate.h */,
+				84DA7BDA190E822700733948 /* BSAppDelegate.m */,
+				84DA7BDC190E822700733948 /* Images.xcassets */,
+				84DA7BD1190E822700733948 /* Supporting Files */,
+			);
+			path = "Buttle ships online";
+			sourceTree = "<group>";
+		};
+		84DA7BD1190E822700733948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BD2190E822700733948 /* Buttle ships online-Info.plist */,
+				84DA7BD3190E822700733948 /* InfoPlist.strings */,
+				84DA7BD6190E822700733948 /* main.m */,
+				84DA7BD8190E822700733948 /* Buttle ships online-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DA7BE9190E822800733948 /* Buttle ships onlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BEF190E822800733948 /* Buttle_ships_onlineTests.m */,
+				84DA7BEA190E822800733948 /* Supporting Files */,
+			);
+			path = "Buttle ships onlineTests";
+			sourceTree = "<group>";
+		};
+		84DA7BEA190E822800733948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BEB190E822800733948 /* Buttle ships onlineTests-Info.plist */,
+				84DA7BEC190E822800733948 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DA7BF9190E936B00733948 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BFA190E936B00733948 /* GameViewController */,
+				84DA7BFE190E936B00733948 /* PrepareViewController */,
+				84DA7C02190E936B00733948 /* StartViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84DA7BFA190E936B00733948 /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BFB190E936B00733948 /* GameViewController.h */,
+				84DA7BFC190E936B00733948 /* GameViewController.m */,
+				84DA7BFD190E936B00733948 /* GameViewController.xib */,
+			);
+			path = GameViewController;
+			sourceTree = "<group>";
+		};
+		84DA7BFE190E936B00733948 /* PrepareViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BFF190E936B00733948 /* PrepareViewController.h */,
+				84DA7C00190E936B00733948 /* PrepareViewController.m */,
+				84DA7C01190E936B00733948 /* PrepareViewController.xib */,
+			);
+			path = PrepareViewController;
+			sourceTree = "<group>";
+		};
+		84DA7C02190E936B00733948 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7C03190E936B00733948 /* StartViewController.h */,
+				84DA7C04190E936B00733948 /* StartViewController.m */,
+				84DA7C05190E936B00733948 /* StartViewController.xib */,
+			);
+			path = StartViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DA7BC6190E822700733948 /* Buttle ships online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DA7BF3190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships online" */;
+			buildPhases = (
+				C4C52B93BFEA4541B984C529 /* Check Pods Manifest.lock */,
+				84DA7BC3190E822700733948 /* Sources */,
+				84DA7BC4190E822700733948 /* Frameworks */,
+				84DA7BC5190E822700733948 /* Resources */,
+				D5F7B85CBAC14C15A4EA3FB4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buttle ships online";
+			productName = "Buttle ships online";
+			productReference = 84DA7BC7190E822700733948 /* Buttle ships online.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DA7BE1190E822700733948 /* Buttle ships onlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DA7BF6190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships onlineTests" */;
+			buildPhases = (
+				84DA7BDE190E822700733948 /* Sources */,
+				84DA7BDF190E822700733948 /* Frameworks */,
+				84DA7BE0190E822700733948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DA7BE8190E822800733948 /* PBXTargetDependency */,
+			);
+			name = "Buttle ships onlineTests";
+			productName = "Buttle ships onlineTests";
+			productReference = 84DA7BE2190E822800733948 /* Buttle ships onlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DA7BBF190E822700733948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mobilesoft365;
+				TargetAttributes = {
+					84DA7BE1190E822700733948 = {
+						TestTargetID = 84DA7BC6190E822700733948;
+					};
+				};
+			};
+			buildConfigurationList = 84DA7BC2190E822700733948 /* Build configuration list for PBXProject "Buttle ships online" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84DA7BBE190E822700733948;
+			productRefGroup = 84DA7BC8190E822700733948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DA7BC6190E822700733948 /* Buttle ships online */,
+				84DA7BE1190E822700733948 /* Buttle ships onlineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DA7BC5190E822700733948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7C09190E936B00733948 /* PrepareViewController.xib in Resources */,
+				84DA7BD5190E822700733948 /* InfoPlist.strings in Resources */,
+				84DA7BDD190E822700733948 /* Images.xcassets in Resources */,
+				84DA7C07190E936B00733948 /* GameViewController.xib in Resources */,
+				84DA7C0B190E936B00733948 /* StartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DA7BE0190E822700733948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BEE190E822800733948 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4C52B93BFEA4541B984C529 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F7B85CBAC14C15A4EA3FB4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DA7BC3190E822700733948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7C08190E936B00733948 /* PrepareViewController.m in Sources */,
+				84DA7BD7190E822700733948 /* main.m in Sources */,
+				84DA7C0A190E936B00733948 /* StartViewController.m in Sources */,
+				84DA7C06190E936B00733948 /* GameViewController.m in Sources */,
+				84DA7BDB190E822700733948 /* BSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DA7BDE190E822700733948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BF0190E822800733948 /* Buttle_ships_onlineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DA7BE8190E822800733948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DA7BC6190E822700733948 /* Buttle ships online */;
+			targetProxy = 84DA7BE7190E822800733948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DA7BD3190E822700733948 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DA7BD4190E822700733948 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84DA7BEC190E822800733948 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DA7BED190E822800733948 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DA7BF1190E822800733948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84DA7BF2190E822800733948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DA7BF4190E822800733948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A69BD82C05847BE888534F7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
+				INFOPLIST_FILE = "Buttle ships online/Buttle ships online-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84DA7BF5190E822800733948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A69BD82C05847BE888534F7 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
+				INFOPLIST_FILE = "Buttle ships online/Buttle ships online-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84DA7BF7190E822800733948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Buttle ships online.app/Buttle ships online";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Buttle ships onlineTests/Buttle ships onlineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84DA7BF8190E822800733948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Buttle ships online.app/Buttle ships online";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
+				INFOPLIST_FILE = "Buttle ships onlineTests/Buttle ships onlineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DA7BC2190E822700733948 /* Build configuration list for PBXProject "Buttle ships online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DA7BF1190E822800733948 /* Debug */,
+				84DA7BF2190E822800733948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DA7BF3190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DA7BF4190E822800733948 /* Debug */,
+				84DA7BF5190E822800733948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DA7BF6190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships onlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DA7BF7190E822800733948 /* Debug */,
+				84DA7BF8190E822800733948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DA7BBF190E822700733948 /* Project object */;
+}
