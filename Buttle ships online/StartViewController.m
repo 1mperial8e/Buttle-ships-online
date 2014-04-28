@@ -9,6 +9,17 @@
 #import "StartViewController.h"
 
 @interface StartViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *btnPlay;
+@property (weak, nonatomic) IBOutlet UIButton *btnLeaderBoard;
+@property (weak, nonatomic) IBOutlet UIButton *btnInstraction;
+@property (weak, nonatomic) IBOutlet UIButton *btnAbaut;
+@property (weak, nonatomic) IBOutlet UIButton *btnExit;
+
+- (IBAction)actPlay:(id)sender;
+- (IBAction)actLeaderBoard:(id)sender;
+- (IBAction)actInstraction:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *actAbaut;
+- (IBAction)actExit:(id)sender;
 
 @end
 
@@ -35,4 +46,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)actPlay:(id)sender {
+}
+
+- (IBAction)actLeaderBoard:(id)sender {
+}
+
+- (IBAction)actInstraction:(id)sender {
+}
+- (IBAction)actExit:(id)sender {
+}
 @end
