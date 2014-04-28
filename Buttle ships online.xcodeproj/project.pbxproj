@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DA7BCB190E822700733948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCA190E822700733948 /* Foundation.framework */; };
+		84DA7BCD190E822700733948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCC190E822700733948 /* CoreGraphics.framework */; };
+		84DA7BCF190E822700733948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCE190E822700733948 /* UIKit.framework */; };
+		84DA7BD5190E822700733948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7BD3190E822700733948 /* InfoPlist.strings */; };
+		84DA7BD7190E822700733948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7BD6190E822700733948 /* main.m */; };
+		84DA7BDB190E822700733948 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7BDA190E822700733948 /* BSAppDelegate.m */; };
+		84DA7BDD190E822700733948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7BDC190E822700733948 /* Images.xcassets */; };
+		84DA7BE4190E822800733948 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BE3190E822800733948 /* XCTest.framework */; };
+		84DA7BE5190E822800733948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCA190E822700733948 /* Foundation.framework */; };
+		84DA7BE6190E822800733948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCE190E822700733948 /* UIKit.framework */; };
+		84DA7BEE190E822800733948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DA7BEC190E822800733948 /* InfoPlist.strings */; };
+		84DA7BF0190E822800733948 /* Buttle_ships_onlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA7BEF190E822800733948 /* Buttle_ships_onlineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DA7BE7190E822800733948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DA7BBF190E822700733948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DA7BC6190E822700733948;
+			remoteInfo = "Buttle ships online";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DA7BC7190E822700733948 /* Buttle ships online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttle ships online.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DA7BCA190E822700733948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84DA7BCC190E822700733948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84DA7BCE190E822700733948 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84DA7BD2190E822700733948 /* Buttle ships online-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Buttle ships online-Info.plist"; sourceTree = "<group>"; };
+		84DA7BD4190E822700733948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DA7BD6190E822700733948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DA7BD8190E822700733948 /* Buttle ships online-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Buttle ships online-Prefix.pch"; sourceTree = "<group>"; };
+		84DA7BD9190E822700733948 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		84DA7BDA190E822700733948 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		84DA7BDC190E822700733948 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84DA7BE2190E822800733948 /* Buttle ships onlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buttle ships onlineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DA7BE3190E822800733948 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84DA7BEB190E822800733948 /* Buttle ships onlineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Buttle ships onlineTests-Info.plist"; sourceTree = "<group>"; };
+		84DA7BED190E822800733948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DA7BEF190E822800733948 /* Buttle_ships_onlineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buttle_ships_onlineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DA7BC4190E822700733948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BCD190E822700733948 /* CoreGraphics.framework in Frameworks */,
+				84DA7BCF190E822700733948 /* UIKit.framework in Frameworks */,
+				84DA7BCB190E822700733948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DA7BDF190E822700733948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BE4190E822800733948 /* XCTest.framework in Frameworks */,
+				84DA7BE6190E822800733948 /* UIKit.framework in Frameworks */,
+				84DA7BE5190E822800733948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DA7BBE190E822700733948 = {
+			isa = PBXGroup;
+			children = (
+				84DA7BD0190E822700733948 /* Buttle ships online */,
+				84DA7BE9190E822800733948 /* Buttle ships onlineTests */,
+				84DA7BC9190E822700733948 /* Frameworks */,
+				84DA7BC8190E822700733948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DA7BC8190E822700733948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BC7190E822700733948 /* Buttle ships online.app */,
+				84DA7BE2190E822800733948 /* Buttle ships onlineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DA7BC9190E822700733948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BCA190E822700733948 /* Foundation.framework */,
+				84DA7BCC190E822700733948 /* CoreGraphics.framework */,
+				84DA7BCE190E822700733948 /* UIKit.framework */,
+				84DA7BE3190E822800733948 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DA7BD0190E822700733948 /* Buttle ships online */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BD9190E822700733948 /* BSAppDelegate.h */,
+				84DA7BDA190E822700733948 /* BSAppDelegate.m */,
+				84DA7BDC190E822700733948 /* Images.xcassets */,
+				84DA7BD1190E822700733948 /* Supporting Files */,
+			);
+			path = "Buttle ships online";
+			sourceTree = "<group>";
+		};
+		84DA7BD1190E822700733948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BD2190E822700733948 /* Buttle ships online-Info.plist */,
+				84DA7BD3190E822700733948 /* InfoPlist.strings */,
+				84DA7BD6190E822700733948 /* main.m */,
+				84DA7BD8190E822700733948 /* Buttle ships online-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DA7BE9190E822800733948 /* Buttle ships onlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BEF190E822800733948 /* Buttle_ships_onlineTests.m */,
+				84DA7BEA190E822800733948 /* Supporting Files */,
+			);
+			path = "Buttle ships onlineTests";
+			sourceTree = "<group>";
+		};
+		84DA7BEA190E822800733948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DA7BEB190E822800733948 /* Buttle ships onlineTests-Info.plist */,
+				84DA7BEC190E822800733948 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DA7BC6190E822700733948 /* Buttle ships online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DA7BF3190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships online" */;
+			buildPhases = (
+				84DA7BC3190E822700733948 /* Sources */,
+				84DA7BC4190E822700733948 /* Frameworks */,
+				84DA7BC5190E822700733948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buttle ships online";
+			productName = "Buttle ships online";
+			productReference = 84DA7BC7190E822700733948 /* Buttle ships online.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DA7BE1190E822700733948 /* Buttle ships onlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DA7BF6190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships onlineTests" */;
+			buildPhases = (
+				84DA7BDE190E822700733948 /* Sources */,
+				84DA7BDF190E822700733948 /* Frameworks */,
+				84DA7BE0190E822700733948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DA7BE8190E822800733948 /* PBXTargetDependency */,
+			);
+			name = "Buttle ships onlineTests";
+			productName = "Buttle ships onlineTests";
+			productReference = 84DA7BE2190E822800733948 /* Buttle ships onlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DA7BBF190E822700733948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mobilesoft365;
+				TargetAttributes = {
+					84DA7BE1190E822700733948 = {
+						TestTargetID = 84DA7BC6190E822700733948;
+					};
+				};
+			};
+			buildConfigurationList = 84DA7BC2190E822700733948 /* Build configuration list for PBXProject "Buttle ships online" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84DA7BBE190E822700733948;
+			productRefGroup = 84DA7BC8190E822700733948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DA7BC6190E822700733948 /* Buttle ships online */,
+				84DA7BE1190E822700733948 /* Buttle ships onlineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DA7BC5190E822700733948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BD5190E822700733948 /* InfoPlist.strings in Resources */,
+				84DA7BDD190E822700733948 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DA7BE0190E822700733948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BEE190E822800733948 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DA7BC3190E822700733948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BD7190E822700733948 /* main.m in Sources */,
+				84DA7BDB190E822700733948 /* BSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DA7BDE190E822700733948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DA7BF0190E822800733948 /* Buttle_ships_onlineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DA7BE8190E822800733948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DA7BC6190E822700733948 /* Buttle ships online */;
+			targetProxy = 84DA7BE7190E822800733948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DA7BD3190E822700733948 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DA7BD4190E822700733948 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84DA7BEC190E822800733948 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DA7BED190E822800733948 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DA7BF1190E822800733948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84DA7BF2190E822800733948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DA7BF4190E822800733948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
+				INFOPLIST_FILE = "Buttle ships online/Buttle ships online-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84DA7BF5190E822800733948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
+				INFOPLIST_FILE = "Buttle ships online/Buttle ships online-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84DA7BF7190E822800733948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Buttle ships online.app/Buttle ships online";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Buttle ships onlineTests/Buttle ships onlineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84DA7BF8190E822800733948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Buttle ships online.app/Buttle ships online";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Buttle ships online/Buttle ships online-Prefix.pch";
+				INFOPLIST_FILE = "Buttle ships onlineTests/Buttle ships onlineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DA7BC2190E822700733948 /* Build configuration list for PBXProject "Buttle ships online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DA7BF1190E822800733948 /* Debug */,
+				84DA7BF2190E822800733948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DA7BF3190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DA7BF4190E822800733948 /* Debug */,
+				84DA7BF5190E822800733948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84DA7BF6190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships onlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DA7BF7190E822800733948 /* Debug */,
+				84DA7BF8190E822800733948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DA7BBF190E822700733948 /* Project object */;
+}
