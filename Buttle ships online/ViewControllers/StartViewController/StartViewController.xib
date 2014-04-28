@@ -6,9 +6,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartViewController">
             <connections>
-                <outlet property="actAbaut" destination="jag-Ne-a7r" id="KRt-Vg-wML"/>
-                <outlet property="actInstraction" destination="rKq-fP-6Wa" id="zbv-hn-FKO"/>
-                <outlet property="actPlay" destination="N3d-H0-4YF" id="CDz-K0-PD1"/>
                 <outlet property="btnAbaut" destination="jag-Ne-a7r" id="Wbu-CJ-rEM"/>
                 <outlet property="btnExit" destination="3hU-Rf-ig7" id="LLe-F6-ZZ8"/>
                 <outlet property="btnInstraction" destination="rKq-fP-6Wa" id="qLv-Zp-9Yz"/>
@@ -58,6 +55,9 @@
                     <state key="normal" title="Abaut">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="actAbaut:" destination="-1" eventType="touchUpInside" id="4JE-A4-jfa"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hU-Rf-ig7">
                     <rect key="frame" x="137" y="332" width="46" height="30"/>

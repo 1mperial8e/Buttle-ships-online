@@ -7,6 +7,7 @@
 //
 
 #import "StartViewController.h"
+#import "PrepareViewController.h"
 
 @interface StartViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *btnPlay;
@@ -18,7 +19,7 @@
 - (IBAction)actPlay:(id)sender;
 - (IBAction)actLeaderBoard:(id)sender;
 - (IBAction)actInstraction:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *actAbaut;
+- (IBAction)actAbaut:(id)sender;
 - (IBAction)actExit:(id)sender;
 
 @end
@@ -47,12 +48,17 @@
 }
 
 - (IBAction)actPlay:(id)sender {
+    PrepareViewController * pvc = [[PrepareViewController alloc]initWithNibName:@"PrepareViewController" bundle:nil];
+    [self.navigationController pushViewController:pvc animated:YES];
 }
 
 - (IBAction)actLeaderBoard:(id)sender {
 }
 
 - (IBAction)actInstraction:(id)sender {
+}
+
+- (IBAction)actAbaut:(id)sender {
 }
 - (IBAction)actExit:(id)sender {
 }
