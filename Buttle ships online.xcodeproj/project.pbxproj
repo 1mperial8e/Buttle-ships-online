@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0408066F190E856400E063C3 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0408066D190E856400E063C3 /* StartViewController.m */; };
+		04080670190E856400E063C3 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0408066E190E856400E063C3 /* StartViewController.xib */; };
 		84DA7BCB190E822700733948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCA190E822700733948 /* Foundation.framework */; };
 		84DA7BCD190E822700733948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCC190E822700733948 /* CoreGraphics.framework */; };
 		84DA7BCF190E822700733948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA7BCE190E822700733948 /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0408066C190E856400E063C3 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		0408066D190E856400E063C3 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		0408066E190E856400E063C3 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 		84DA7BC7190E822700733948 /* Buttle ships online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttle ships online.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA7BCA190E822700733948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84DA7BCC190E822700733948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0408066A190E852000E063C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0408066B190E853400E063C3 /* StartViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0408066B190E853400E063C3 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0408066C190E856400E063C3 /* StartViewController.h */,
+				0408066D190E856400E063C3 /* StartViewController.m */,
+				0408066E190E856400E063C3 /* StartViewController.xib */,
+			);
+			name = StartViewController;
+			sourceTree = "<group>";
+		};
 		84DA7BBE190E822700733948 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +132,7 @@
 			children = (
 				84DA7BD9190E822700733948 /* BSAppDelegate.h */,
 				84DA7BDA190E822700733948 /* BSAppDelegate.m */,
+				0408066A190E852000E063C3 /* ViewControllers */,
 				84DA7BDC190E822700733948 /* Images.xcassets */,
 				84DA7BD1190E822700733948 /* Supporting Files */,
 			);
@@ -221,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DA7BD5190E822700733948 /* InfoPlist.strings in Resources */,
+				04080670190E856400E063C3 /* StartViewController.xib in Resources */,
 				84DA7BDD190E822700733948 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0408066F190E856400E063C3 /* StartViewController.m in Sources */,
 				84DA7BD7190E822700733948 /* main.m in Sources */,
 				84DA7BDB190E822700733948 /* BSAppDelegate.m in Sources */,
 			);
@@ -438,6 +464,7 @@
 				84DA7BF5190E822800733948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DA7BF6190E822800733948 /* Build configuration list for PBXNativeTarget "Buttle ships onlineTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +473,7 @@
 				84DA7BF8190E822800733948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

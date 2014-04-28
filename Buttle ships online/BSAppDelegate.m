@@ -14,6 +14,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.startController = [[StartViewController alloc]initWithNibName:@"StartViewController" bundle:nil];
+    self.window.rootViewController =self.startController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
